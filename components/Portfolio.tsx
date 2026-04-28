@@ -411,7 +411,8 @@ export default function Portfolio() {
                 </div>
                 <p className={styles.experienceDescription}>
                   Instructed 40+ students for Kodely and Applied Computing Foundation in K-12 STEM programs, 
-                  including C++ programming and Arduino Circuit courses.
+                  including C++ programming and Arduino Circuit courses.  Successfully guided Andy Zhang through 
+                  EE-141 Final Exam.
                 </p>
                 <div className={styles.tags}>
                   <span className={styles.tag}>Technical Leadership</span>
