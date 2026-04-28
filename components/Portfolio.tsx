@@ -45,7 +45,7 @@ export default function Portfolio() {
             <h1 className={styles.name}>Seungho Lee</h1>
             <p className={styles.title}>Computer Science Student</p>
             <p className={styles.subtitle}>
-              Experienced in Agentic AI, Machine Learning and Full Stack Engineering
+              Experienced in Agentic AI, Machine Learning, and Full Stack Engineering
             </p>
           </div>
 
@@ -207,8 +207,7 @@ export default function Portfolio() {
               Computer Science and Business Administration student at USC with experience building AI systems, 
               ML infrastructure, and full-stack applications. I specialize in developing multi-agent LLM systems, 
               optimizing ML pipelines for performance, and deploying scalable solutions across cloud and edge environments. 
-              My work spans from designing distributed AI workflows and backend systems to implementing hardware-aware 
-              models for low-latency inference on edge devices. I’m particularly interested in AI infrastructure, performance 
+              I’m particularly interested in AI infrastructure, performance 
               engineering, and the integration of machine learning with real-world systems.
             </p>
 
@@ -253,7 +252,7 @@ export default function Portfolio() {
                   <span className={styles.experienceDate}>June 2025 - August 2025</span>
                 </div>
                 <p className={styles.experienceDescription}>
-                  Built and optimized a multi-agent LLM system with tool-calling and parallel execution, 
+                  Developed a multi-agent LLM system with tool-calling and parallel execution, 
                   integrating full-stack components to enable scalable AI workflows.
                 </p>
                 <div className={styles.tags}>
@@ -297,7 +296,7 @@ export default function Portfolio() {
                   <span className={styles.experienceDate}>January 2023 - May 2023</span>
                 </div>
                 <p className={styles.experienceDescription}>
-                  Built ML-driven analytics and backend pipelines for EV charger placement while deploying and 
+                  Implemented ML-driven analytics and backend pipelines for EV charger placement while deploying and 
                   maintaining production web infrastructure.
                 </p>
                 <div className={styles.tags}>
@@ -317,10 +316,13 @@ export default function Portfolio() {
             <h2 className={styles.sectionTitle}>Academic Education</h2>
 
             <div className={styles.educationItem}>
-              <h3 className={styles.educationTitle}>Bachelor of Science - Computer Science/Business Administration</h3>
-              <p className={styles.educationStatus}>
-                August 2024 - May 2028
-              </p>
+              <div className={styles.experienceHeader}>
+                <div>
+                  <h3 className={styles.educationTitle}>B.S. - Computer Science/Business Administration</h3>
+                  <p className={styles.experienceCompany}>University of Southern California</p>
+                </div>
+                <span className={styles.experienceDate}>August 2024 - May 2028</span>
+              </div>
             </div>
           </div>
         </section>
@@ -437,6 +439,21 @@ export default function Portfolio() {
             </div>
           </div>
         </section>
+
+        {/* Footer */}
+        <footer className={styles.footer}>
+          <p className={styles.footerText}>
+            Website template design by {" "}
+            <a
+              href="https://portifolio-gx4d.onrender.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.footerLink}
+            >
+              Manuel Pires Luis
+            </a>
+          </p>
+        </footer>
       </main>
     </div>
   )
